@@ -2059,3 +2059,37 @@ input, select, textarea {
 			max-width: 100%;
 			height: auto;
 		  }
+		  ul {
+            list-style-type: none; /* Remove os marcadores */
+            padding: 0;
+        }
+        ul li {
+            display: inline; /* Exibe os itens em linha */
+            margin-right: 10px; /* Espaçamento entre os itens */
+        }
+        .button1 {
+            padding: 10px 20px;
+            background-color: #00ff0d; /* Cor de fundo do botão */
+            color: white; /* Cor do texto */
+            border: none; /* Remove a borda padrão */
+            border-radius: 5px; /* Bordas arredondadas */
+            cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+            font-size: 16px; /* Tamanho da fonte */
+        }
+        .button1:hover {
+            background-color: #45a049; /* Cor de fundo ao passar o mouse */
+        }
+
+		.button2 {
+            padding: 10px 20px;
+            background-color: #eeff00; /* Cor de fundo do botão */
+            color: white; /* Cor do texto */
+            border: none; /* Remove a borda padrão */
+            border-radius: 5px; /* Bordas arredondadas */
+            cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+            font-size: 16px; /* Tamanho da fonte */
+        }
+        .button2:hover {
+            background-color: #45a049; /* Cor de fundo ao passar o mouse */
+        }
+		  
